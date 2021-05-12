@@ -1,3 +1,8 @@
 # test-django-python
 
-Après avoir cloné
+lien: https://couli.herokuapp.com/
+
+Les accès
+
+username: mamoute
+password: nan
