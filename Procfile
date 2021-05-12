@@ -1,1 +1,1 @@
-web: gunicorn --chdir couli/couli.wsgi
+web: gunicorn couli.wsgi
