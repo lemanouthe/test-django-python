@@ -1,4 +1,6 @@
 {% extends 'base/base.html' %}
+{% load static %}
+{% load my_filter %}
 
 {% block header %}
     {% include "base/includes/header.html" %}
@@ -29,7 +31,7 @@
                     <div class="col-md-8">
                         <div class="chapitres">
                             <div id="accordion">
-                                {% for item in detail.cours_chapitre.all %}
+                                {% for item in detail.cours_chapitre.all|ordering:"date_add" %}
                                     {% if forloop.first %}
                                         <div class="card">
                                             <div class="card-header" id="headingOne">
