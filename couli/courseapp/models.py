@@ -30,7 +30,7 @@ class Foramteur(models.Model):
 
     def __str__(self):
         """Unicode representation of Foramteur."""
-        self.user.username
+        return self.user.username
 
 class Cours(models.Model):
     """Model definition for Cours."""
@@ -56,7 +56,7 @@ class Cours(models.Model):
 
     def __str__(self):
         """Unicode representation of Cours."""
-        return f'{self.titre}'
+        return f"{self.prof.user} - {self.titre}"
 
 class Chapitre(models.Model):
     """Model definition for Chapitre."""

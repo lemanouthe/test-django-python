@@ -43,7 +43,7 @@ def login_view(request):
         datas = {
             'next': next,
         }
-        return render(request,'pages/siteweb/login.html', datas)
+        return render(request,'pages/login.html', datas)
 
 def logout_view(request):
     logout(request)

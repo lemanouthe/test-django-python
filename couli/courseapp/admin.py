@@ -23,8 +23,9 @@ class CoursAdmin(admin.ModelAdmin):
 
     list_display = (
         'img',
-        'prof',
         'titre',
+        'prof',
+        'publication',
         
         'status',
         'date_add',
