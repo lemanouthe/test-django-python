@@ -4,8 +4,8 @@ lien: https://couli.herokuapp.com/
 
 Les accès
 
-username: mamoute
-password: nan
+- username: mamoute
+- password: nan
 
 Les views se trouvent dans le dossier myviews de l'Application courseapp
 
